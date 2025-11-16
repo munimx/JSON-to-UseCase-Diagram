@@ -2,6 +2,8 @@
 
 A simple web application that converts JSON data into formatted use case tables in HTML format.
 
+**Live Demo**: https://json-to-usecase.netlify.app/
+
 ## Features
 
 - **JSON Input**: Paste JSON data directly into a textarea
