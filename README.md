@@ -42,26 +42,7 @@ The application expects JSON objects with the following structure:
 
 ## Example Output
 
-The above JSON generates a table like this:
-
-| Identifier | UC-001 |
-| --- | --- |
-| Purpose | User login |
-| Priority | High |
-| Pre-conditions | User is on login page |
-| Post-conditions | User is authenticated |
-
-### Typical Course of Action
-
-| S# | Actor Action | System Response |
-| --- | --- | --- |
-| 1 | Enter credentials | Validate credentials |
-
-### Alternate Course of Action
-
-| S# | Actor Action | System Response |
-| --- | --- | --- |
-| 1 | Invalid credentials entered | Display error message |
+![Use Case Table Screenshot](screenshot.png)
 
 ### For Multiple Use Cases
 
