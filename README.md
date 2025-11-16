@@ -61,7 +61,9 @@ Simply provide an array of objects:
 2. Paste your JSON data into the textarea
 3. Click **"Generate Table"** to create the formatted table(s)
 4. Click **"Copy Table"** to copy the HTML to your clipboard
-5. Paste into Microsoft Word or any other document editor
+5. Paste into Microsoft Word, Microsoft Excel, or any other document editor that supports rich text formatting
+
+The tables retain all their formatting (borders, colors, alignment) when pasted into Word, Excel, and other applications.
 
 ## File Structure
 
