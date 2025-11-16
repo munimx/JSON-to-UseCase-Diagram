@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JSON → Liftoff Use Case Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            font-size: 12pt;
+        }
+
+        textarea {
+            width: 100%;
+            height: 200px;
+            font-size: 12pt;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 12pt;
+        }
+
+        th, td {
+            border: 1px solid #444;
+            padding: 8px;
+            vertical-align: top;
+            font-size: 12pt;
+        }
+
+        /* RIGHT ALIGN the first column headers */
+        .right-align {
+            text-align: right;
+            background: #eaeaea;
+            width: 1%; /* auto shrink */
+            white-space: nowrap;
+        }
+
+        th {
+            background: #eaeaea;
+        }
+
+        .section-header {
+            background: #dcdcdc;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        /* S# column: shrink automatically */
+        .s-col {
+            width: 1%;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            cursor: pointer;
+            background: black;
+            color: white;
+            border: none;
+            margin-top: 10px;
+            margin-right: 10px;
+            font-size: 12pt;
+        }
+
+        #output {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>JSON → Liftoff Use Case Table Generator</h1>
+
+<p>Paste your JSON below:</p>
+
+<textarea id="jsonInput"></textarea>
+<br>
+
+<button class="btn" onclick="generate()">Generate Table</button>
+<button class="btn" onclick="copyTables()">Copy Table</button>
+
+<div id="output"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
