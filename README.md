@@ -1,4 +1,4 @@
-# JSON → Liftoff Use Case Table Generator
+# JSON → Use Case Table Generator
 
 A simple web application that converts JSON data into formatted use case tables in HTML format.
 
